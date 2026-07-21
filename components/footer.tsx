@@ -10,7 +10,7 @@ export function Footer() {
         <div className="space-y-4">
           <Link href="#home" className="flex items-center gap-2">
             <div className="w-8 h-8 relative rounded-full overflow-hidden">
-              <Image src="/logo.png" alt="HellZ Joki Logo" fill className="object-cover" />
+              <Image src="/logo/logo.png" alt="HellZ Joki Logo" fill className="object-cover" />
             </div>
             <span className="font-heading text-2xl tracking-wide font-bold text-(--primary)">
               HellZ Joki

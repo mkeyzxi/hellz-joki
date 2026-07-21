@@ -59,7 +59,7 @@ export function Navbar() {
           {/* Logo */}
           <Link href="#home" className="flex items-center gap-3 group relative z-10">
             <div className="w-10 h-10 relative rounded-full overflow-hidden transition-colors">
-              <Image src="/logo.png" alt="HellZ Joki Logo" fill className="object-cover" />
+              <Image src="/logo/logo.png" alt="HellZ Joki Logo" fill className="object-cover" />
             </div>
             <span
               className={cn(

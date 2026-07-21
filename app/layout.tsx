@@ -21,22 +21,47 @@ export const metadata: Metadata = {
   title: 'HellZ Joki | Jasa Joki Mobile Legends Terpercaya',
   description:
     'HellZ Joki menyediakan jasa push rank Mobile Legends dengan proses cepat, aman, terpercaya dan harga terjangkau.',
-  keywords: ['Joki ML', 'Joki Mobile Legends', 'Push Rank ML', 'Jasa Joki Mythic', 'HellZ Joki'],
+  keywords: [
+    'Joki ML',
+    'Joki Mobile Legends',
+    'Push Rank ML',
+    'Jasa Joki Mythic',
+    'HellZ Joki',
+    'Joki Murah ML',
+    'Joki MLBB Aman',
+  ],
+  authors: [{name: 'HellZ Joki'}],
+  creator: 'HellZ Joki',
+  publisher: 'HellZ Joki',
+  robots: 'index, follow',
+  icons: {
+    icon: '/logo/logo.png',
+    shortcut: '/logo/logo.png',
+    apple: '/logo/logo.png',
+  },
   openGraph: {
-    title: 'HellZ Joki | Jasa Mobile Legends',
+    title: 'HellZ Joki | Jasa Joki Mobile Legends Terpercaya',
     description:
       'HellZ Joki menyediakan jasa push rank Mobile Legends dengan proses cepat, aman, terpercaya dan harga terjangkau.',
     url: 'https://hellzjoki.com',
     siteName: 'HellZ Joki',
     images: [
       {
-        url: '/logo.png',
+        url: '/logo/logo.png',
         width: 800,
         height: 600,
+        alt: 'HellZ Joki Logo',
       },
     ],
     locale: 'id_ID',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'HellZ Joki | Jasa Joki Mobile Legends Terpercaya',
+    description:
+      'Jasa joki Mobile Legends profesional. Push rank cepat, aman, terpercaya dan harga terjangkau.',
+    images: ['/logo/logo.png'],
   },
 }
 

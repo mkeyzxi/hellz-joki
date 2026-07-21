@@ -18,7 +18,23 @@ export const pricelist: RankConfig[] = [
     divisions: ['III', 'II', 'I'],
     starsPerDivision: 3,
     price: 4000,
-    icon: '/logo.png',
+    icon: '/ranks/warior.webp',
+  },
+  {
+    rank: 'Elite',
+    type: 'romawi',
+    divisions: ['III', 'II', 'I'],
+    starsPerDivision: 4,
+    price: 5000,
+    icon: '/ranks/elite.webp',
+  },
+  {
+    rank: 'Master',
+    type: 'romawi',
+    divisions: ['IV', 'III', 'II', 'I'],
+    starsPerDivision: 4,
+    price: 5000,
+    icon: '/ranks/master.webp',
   },
   {
     rank: 'Grandmaster',
@@ -26,7 +42,7 @@ export const pricelist: RankConfig[] = [
     divisions: ['V', 'IV', 'III', 'II', 'I'],
     starsPerDivision: 5,
     price: 5000,
-    icon: '/logo.png',
+    icon: '/ranks/grandMaster.webp',
   },
   {
     rank: 'Epic',
@@ -34,7 +50,7 @@ export const pricelist: RankConfig[] = [
     divisions: ['V', 'IV', 'III', 'II', 'I'],
     starsPerDivision: 5,
     price: 7000,
-    icon: '/logo.png',
+    icon: '/ranks/epic.webp',
   },
   {
     rank: 'Legend',
@@ -42,7 +58,7 @@ export const pricelist: RankConfig[] = [
     divisions: ['V', 'IV', 'III', 'II', 'I'],
     starsPerDivision: 5,
     price: 8000,
-    icon: '/logo.png',
+    icon: '/ranks/legens.webp',
   },
   {
     rank: 'Mythic',
@@ -50,7 +66,7 @@ export const pricelist: RankConfig[] = [
     minStars: 0,
     maxStars: 24,
     price: 12000,
-    icon: '/logo.png',
+    icon: '/ranks/mythic.webp',
   },
   {
     rank: 'Mythical Honor',
@@ -58,7 +74,7 @@ export const pricelist: RankConfig[] = [
     minStars: 25,
     maxStars: 49,
     price: 17000,
-    icon: '/logo.png',
+    icon: '/ranks/honor.webp',
   },
   {
     rank: 'Mythical Glory',
@@ -66,7 +82,7 @@ export const pricelist: RankConfig[] = [
     minStars: 50,
     maxStars: 99,
     price: 25000,
-    icon: '/logo.png',
+    icon: '/ranks/glory.webp',
   },
   {
     rank: 'Mythical Immortal',
@@ -74,6 +90,6 @@ export const pricelist: RankConfig[] = [
     minStars: 100,
     maxStars: 9999, // practically unlimited
     price: 30000,
-    icon: '/logo.png',
+    icon: '/ranks/immortal.webp',
   },
 ];
