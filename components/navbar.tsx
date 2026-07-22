@@ -21,7 +21,7 @@ export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
-  const {theme, setTheme} = useTheme()
+  const {theme, setTheme, resolvedTheme} = useTheme()
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
@@ -112,14 +112,14 @@ export function Navbar() {
             <div className="ml-4 pl-4 flex items-center gap-2">
               {mounted && (
                 <button
-                  onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+                  onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
                   className={cn(
                     "transition-colors p-2 rounded-full",
                     isScrolled ? "text-(--text-primary) hover:bg-(--surface-elevated)" : "text-(--text-primary) hover:bg-(--text-primary)/10"
                   )}
                   aria-label="Toggle theme"
                 >
-                  {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
+                  {resolvedTheme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
                 </button>
               )}
               <Button
@@ -138,14 +138,14 @@ export function Navbar() {
           <div className="flex items-center gap-1 md:hidden">
             {mounted && (
               <button
-                onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+                onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
                 className={cn(
                   "transition-colors p-2 rounded-full",
                   isScrolled ? "text-(--text-primary) hover:bg-(--surface-elevated)" : "text-(--text-primary) hover:bg-(--text-primary)/10"
                 )}
                 aria-label="Toggle theme"
               >
-                {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
+                {resolvedTheme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
               </button>
             )}
             <button

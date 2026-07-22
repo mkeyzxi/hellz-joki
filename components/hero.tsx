@@ -140,7 +140,7 @@ export function Hero() {
               className="text-lg md:text-xl text-(--text-secondary) max-w-md lg:max-w-lg mb-10 leading-relaxed font-medium"
             >
               Tinggalkan tim beban. Biarkan{' '}
-              <strong className="text-(--text-primary)">HellZ Joki</strong> membawa akun Mobile
+              <strong className="text-(--text-primary)">HELLZ JOKI</strong> membawa akun Mobile
               Legends-mu ke rank tertinggi dengan cepat, aman, dan harga terbaik.
             </motion.p>
 

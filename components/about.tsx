@@ -14,7 +14,7 @@ export function About() {
           className="max-w-3xl mx-auto text-center"
         >
           <h2 className="font-heading text-4xl md:text-5xl text-(--text-primary) mb-8 tracking-wide">
-            Tentang HellZ Joki
+            Tentang HELLZ JOKI
           </h2>
 
           <div className="bg-(--surface) border border-(--border) rounded-2xl p-8 md:p-12 shadow-card hover:-translate-y-1 transition-transform duration-300">
